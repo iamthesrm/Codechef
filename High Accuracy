@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+#ifdef LOCAL_PROJECT
+  	freopen("a.in","r",stdin);
+#else
+#endif
+	ios::sync_with_stdio(0);
+	cin.tie(NULL);
+	
+	int x;
+	cin >> x;
+	while(x--){
+		float a, b, c, d;
+		cin >> a;
+		int div=ceil(a/3);
+		if((int)a%3==0)
+			cout << 0 << endl;
+		else 
+			cout << (div*3)-a << endl;
+	}
+}
