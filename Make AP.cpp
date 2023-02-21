@@ -9,6 +9,7 @@ int main(){
 	ios::sync_with_stdio(0);
 	cin.tie(NULL);
 	
+	//Finding Mathematic Progression
 	int x;
 	cin >> x;
 	while(x--){
